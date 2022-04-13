@@ -1,0 +1,27 @@
+nav {
+    background-color: black;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90vw;
+    height: 60px;
+    list-style-type: none;
+  }
+  
+  .img-w50px {
+    width: 50px;
+    filter: invert(100%);
+  }
+  
+  .menu-item {
+    margin-left: 20px;
+  }
+  
+  .enlace-menu-item {
+    text-decoration: none;
+    color: white;
+  }

@@ -1,0 +1,153 @@
+* {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*BARRA DE NAVEGACION*/
+
+
+.img-w50px {
+  width: 50px;
+  filter: invert(100%);
+}
+
+.navbar-dark{
+  color: blue;
+}
+
+.navbar-brand{
+  color: blue;
+}
+
+.navbar-nav{
+  color: blue;
+}
+
+.nav-link{
+  color: blue;
+}
+
+.navbar-toggler{
+  color: blue;
+}
+
+.navbar-text{
+  color: blue;
+}
+
+.active{
+  color: blue;
+}
+/*FIN BARRA DE NAVEGACION*/
+
+/*HERO SECTION*/
+
+header {
+  background-image: url(../img/bg-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: "Raleway", sans-serif;
+  text-align: right;
+  color: white;
+
+  padding-top: 52px;
+  padding-bottom: 151px;
+  padding-right: 197px;
+}
+
+header h1 {
+  font-size: 3.5em;
+}
+
+header h2 {
+  margin-top: 40px;
+  font-size: 2.5em;
+  font-weight: lighter;
+}
+
+/*FIN HERO SECTION*/
+
+/*DONDE NOS JUNTAMOS*/
+.contenedor-seccion {
+  padding: 70px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contenedor-seccion p {
+  text-align: center;
+}
+/*FIN DONDE NOS JUNTAMOS*/
+
+/*PROXIMA CHARLA*/
+#proxima-charla {
+  background-color: #a4452c;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.seccion-charla {
+  width: 900px;
+  margin: auto;
+}
+
+.texto-charla {
+  width: 70%;
+  margin-left: 4%;
+}
+
+.seccion-charla img {
+  width: 25%;
+}
+
+.seccion-charla img,
+.texto-charla {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.texto-charla h1 {
+  font-size: 2.5em;
+}
+
+.texto-charla h2 {
+  font-weight: 100;
+}
+
+.texto-charla p {
+  font-size: 1.5em;
+  font-weight: 100;
+}
+/*FIN PROXIMA CHARLA*/
+
+/*SECCION DE ICONOS*/
+.iconos-horizontales {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+}
+
+
+.iconos-horizontales p {
+  margin: 100px;
+  color: white;
+}
+/*FIN SECCION DE ICONOS*/
+
+
+/*SECCION DE footer*/
+footer {
+  text-align: center;
+  background-color: gray;
+  color: white;
+  width: 100vw;
+}
+/*FIN footer*/
